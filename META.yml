@@ -1,0 +1,16 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         HTTP-Request-Params
+version:      1.01
+version_from: lib/HTTP/Request/Params.pm
+installdirs:  site
+requires:
+    CGI:                           3.00
+    Class::Accessor::Fast:         0.19
+    Email::MIME::ContentType:      1.0
+    Email::MIME::Modifier:         1.42
+    HTTP::Request:                 1.40
+    HTTP::Request::Common:         1.26
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.24
