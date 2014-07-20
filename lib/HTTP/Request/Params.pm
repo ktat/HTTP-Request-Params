@@ -1,6 +1,7 @@
 package HTTP::Request::Params;
 # $Id: Params.pm,v 1.1 2005/01/12 16:42:32 cwest Exp $
 use strict;
+use Email::MIME;
 
 =head1 NAME
 
